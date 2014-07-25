@@ -30,26 +30,41 @@ font-family:'Arvo', serif;
 font-weight: 400;
 color: white;
 font-size: 85px;
-letter-spacing: 10%;}
+letter-spacing: 10%;
+-webkit-transition: all 5s linear;
+    -moz-transition: all 5s linear;
+    -o-transition: all 5s linear;
+    transition: all 5s linear;
+   transition-duration: 6s;}
 
 h2, h3, h4, h5 { 
+  outline: solid;
+  outline-style: circle;
 font-family:'Arvo', serif; 
 font-weight: 400;
 font-size: 45px;
 color: white;
 text-align: center;
--webkit-transition: all 8s ease-in-out;
-  	-moz-transition: all 8s ease-in-out;
-  	-o-transition: all 8s ease-in-out;
-  	transition: all 8s ease-in-out;}
+-webkit-transition: all 3s linear;
+  	-moz-transition: all 3s linear;
+  	-o-transition: all 3s linear;
+  	transition: all 3s linear;}
 
- h2:hover, h3:hover, h4:hover, h5:hover {
+h1:hover {
+  text-decoration: line-through; 
+  border-bottom-style: inset;
+  outline-color: white; 
+  font-family: 'Crafty Girls', cursive; }
+
+h2:hover, h3:hover, h4:hover, h5:hover {
   		font-family: 'Crafty Girls', cursive; 
   		font-weight: 400;
   		text-decoration: line-through;
   		text-transform: lowercase;
   		color: #5cc7cc; 
-  		margin: 20%;}
+  		margin: 20%;
+      outline: none;
+  }
 
 
 #allcolums { ; 
@@ -110,10 +125,16 @@ margin-top: 37%;
 	width:19%;	
 	margin-bottom: 12%;
 	padding-right: 2%;
+    -webkit-transition: all 2s ease-out;
+    -moz-transition: all 2s ease-out;
+    -o-transition: all 2s ease-out;
+    transition: all 2s ease-out;
 }
 
+
+
 #column2{
-margin-top: 10px;
+vertical-align: right;
 }
 
  #column3 { 
