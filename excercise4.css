@@ -1,0 +1,200 @@
+body {margin: 0; 
+background-color: #e70279}
+
+#toppageheader {padding-bottom: 10%;}
+
+header{
+width: 100%;
+margin: 0; padding:0;
+padding-bottom: 1%;
+margin-bottom: 0;
+padding-bottom: 0;
+margin-top: 0;
+background-color: #e70279;
+background-image: url(images/websitelogo2.png);
+background-repeat: no-repeat;
+background-position: center center;
+}
+
+
+
+header img { vertical-align: center;
+width: 250px;
+height: 180px;}
+
+h1{ margin: 0;
+padding-bottom: 10%;
+padding-top: 10%;
+text-align: center;
+font-family:'Arvo', serif;
+font-weight: 400;
+color: white;
+font-size: 85px;
+letter-spacing: 10%;}
+
+h2, h3, h4, h5 { 
+font-family:'Arvo', serif; 
+font-weight: 400;
+font-size: 45px;
+color: white;
+text-align: center;
+-webkit-transition: all 8s ease-in-out;
+  	-moz-transition: all 8s ease-in-out;
+  	-o-transition: all 8s ease-in-out;
+  	transition: all 8s ease-in-out;}
+
+ h2:hover, h3:hover, h4:hover, h5:hover {
+  		font-family: 'Crafty Girls', cursive; 
+  		font-weight: 400;
+  		text-decoration: line-through;
+  		text-transform: lowercase;
+  		color: #5cc7cc; 
+  		margin: 20%;}
+
+
+#allcolums { ; 
+width: 100%; 
+clear: both;
+margin-left: 8%;
+margin-right: 5%;
+}
+
+#column1 p, #column2 p, #column3 p, #column4 p {
+font-family: 'Arvo', serif;
+font-size: 32px;
+color: white;
+-webkit-transition: all 1s ease-in-out;
+ -moz-transition: all 1s ease-in-out;
+ -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+	transition-duration: 3s;}
+
+span {font-family: 'Arvo', serif;
+font-size: 32px;
+color: white;
+font-style: bold;
+-webkit-transition: all 2s ease-out;
+ -moz-transition: all 2s ease-out;
+ -o-transition: all 2s ease-out;
+  transition: all 2s ease-out;
+transition-duration: 4s;}
+
+
+#column1 p:hover, #column2 p:hover, #column3 p:hover, #column4 p:hover {
+	color: green;
+	font-size: 89px;
+}
+ 
+span:hover { color: #ffff00;
+ font-size: 200px;
+font-family: font-family: 'Delius Unicase', cursive;}
+
+#column1 p {
+	margin-top: 65%;
+}
+
+#column2 p{
+	margin-top: 45%;
+}
+
+#column3 p{ 
+margin-top: 40%;}
+
+#column4 p{
+margin-top: 37%;
+}
+
+#column1, #column2, #column3, #column4 {
+	display: inline-block;
+	vertical-align: top;
+	width:19%;	
+	margin-bottom: 12%;
+	padding-right: 2%;
+}
+
+#column2{
+margin-top: 10px;
+}
+
+ #column3 { 
+ 	margin-bottom: 13%; 
+ 	margin-top: -1%;}
+
+ #chinenyemsface img, #shoespicture img ,  #churchpicture img, 
+ #bikingtrailspicture img {
+ 	border-radius: 100%;
+ 	width: 200px;
+ 	height: 200px;
+ 	margin-top: 5%;
+ 	margin-right: 12%;
+ 	margin-bottom: 50px;
+ 	-webkit-transition: all 2s ease-out;
+  	-moz-transition: all 2s ease-out;
+  	-o-transition: all 2s ease-out;
+  	transition: all 2s ease-out;
+ }
+
+ #churchpicture img {width: 280px; height: 280px;}
+
+ #chinenyemsface img { margin-top: 28%;}
+
+
+#chinenyemsface img:hover {
+	width: 0px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-top: 60px solid yellow;
+  border-left: 60px solid yellow;
+  border-bottom: 60px solid yellow;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+ }
+
+#shoespicture img:hover {
+	width: 0px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-top: 60px solid yellow;
+  border-left: 60px solid yellow;
+  border-bottom: 60px solid yellow;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+
+#churchpicture img:hover {
+	width: 0px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-top: 60px solid yellow;
+  border-left: 60px solid yellow;
+  border-bottom: 60px solid yellow;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+
+#bikingtrailspicture img:hover {
+	width: 0px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-top: 60px solid yellow;
+  border-left: 60px solid yellow;
+  border-bottom: 60px solid yellow;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+
+
+
+
+
+
+
+
